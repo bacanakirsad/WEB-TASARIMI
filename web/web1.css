@@ -1,0 +1,103 @@
+/* web1.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    overflow-y: scroll; /* Dikey kaydırma çubuğunu göster */
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    
+    header h1 {
+        float: center;
+        margin-right: 199px;
+    }
+    .logo-container{
+        flex:0 0 auto;
+    }
+
+
+.logo-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 1000%;
+}
+
+.title-container {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    clear: both; /* Önceki elementlerin altında olmasını sağlar */
+    position: relative; /* Footer'ın altta kalmasını sağlar */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.social-link {
+    display: inline-block;
+    margin: 0 20px; /* Logolar ve adlar arasındaki boşluk */
+    vertical-align: top; /* Dikey hizalamayı en üste getir */
+}
+
+
+.social-links a {
+    display: inline-block;
+    
+
+
+    
+}
+.social-link img {
+    width: 30px; /* Logoların genişliği */
+    height: 30px; /* Logoların yüksekliği */
+    display: block; /* Resmin altındaki boşlukları kaldır */
+    margin: 0 auto; /* Resmi yatayda hizala */
+}
+.social-link span {
+    display: block; /* Adları alt alta yerleştir */
+}
